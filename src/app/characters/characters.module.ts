@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CharactersListComponent } from './characters-list/characters-list.component';
-import { CharactersComponent } from './characters.component';
 import { CharactersRouteModule } from './characters-routing.module';
+import { CharacterComponent } from './character/character.component';
 
 
 
 @NgModule({
   declarations: [
-    CharactersComponent, 
-    CharactersListComponent],
+    CharactersListComponent, 
+    CharacterComponent],
   imports: [
     CommonModule,
     CharactersRouteModule

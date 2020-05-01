@@ -5,8 +5,7 @@ import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-characters-list',
-  templateUrl: './characters-list.component.html',
-  styleUrls: ['./characters-list.component.scss']
+  templateUrl: './characters-list.component.html'
 })
 export class CharactersListComponent implements OnInit {
   characters: Character[] = [];
